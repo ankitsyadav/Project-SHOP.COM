@@ -1,0 +1,159 @@
+/* footer{
+    border:1px solid red;
+    height: 490px;
+    margin:4px;
+    margin-left:5px;
+   
+} */
+#container {
+  height: auto;
+  width: 100%;
+  margin: auto;
+}
+.box1 {
+  display: flex;
+  /* position: static; */
+  color: white;
+  background-color: #545871;
+  justify-content: space-between;
+  height: auto;
+  font-size: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+  font-weight: normal;
+
+  font-weight: bold;
+  font-size: 15px;
+}
+#email {
+  /* border:1px solid#545871; */
+  display: flex;
+  height: 30px;
+  width: 400px;
+  margin-top: 25px;
+}
+#email > input {
+  /* border:1px solid black; */
+  font-style: italic;
+  width: 700px;
+}
+label {
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 20px;
+}
+button {
+  /* border: 1px solid red; */
+  margin-left: -7px;
+  width: 300px;
+}
+#box2 {
+  /* border: 1px solid yellow; */
+  padding: 20px;
+}
+#box2 > div {
+  display: flex;
+  /* border: 1px solid yellow; */
+  color: #dadbe6;
+  margin-left: 500px;
+  font-size: 20px;
+}
+#box2 > div > div {
+  margin-left: 5px;
+  margin-top: 5px;
+}
+a {
+  color: #dadbe6;
+}
+.link {
+  margin-bottom: -10px;
+  color: white;
+  font-size: 19.5px;
+}
+#About {
+  margin-top: -20px;
+  margin: 5px;
+  font-weight: normal;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#icon {
+  width: 15%;
+  height: 35px;
+}
+#market {
+  margin-top: 0px;
+  line-height: 5px;
+  padding: 5px;
+  font-size: 15px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#market > a {
+  color: black;
+  line-height: 2px;
+}
+
+select {
+  width: 100px;
+  color: white;
+  background-color: #545871;
+}
+#About > p > a {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#box5 {
+  background-color: #545871;
+  color: white;
+}
+#About {
+  display: flex;
+  justify-content: space-between;
+}
+#title > p {
+  margin-top: 35px;
+}
+#mbox5 {
+  width: 55%;
+  display: flex;
+  gap: 15px;
+  font-weight: bold;
+}
+#About > div:last-child {
+  width: 20%;
+  font-size: 14px;
+  display: flex;
+  gap: 4px;
+  margin-top: 20px;
+}
+#ac {
+  padding: 8px;
+  margin-top: -8px;
+}
+
+#market > p > a {
+  color: black;
+}
+
+#fnl > div {
+  display: flex;
+  margin: auto;
+  width: 800px;
+}
+#fnl > div > img {
+  height: 75px;
+  width: 75px;
+  padding: 10px;
+}
+#fnl {
+  margin-top: 20px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#fimg > img {
+  margin: auto;
+  padding: 10px;
+}

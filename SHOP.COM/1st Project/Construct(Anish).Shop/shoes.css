@@ -1,0 +1,102 @@
+#text{
+    height: 700px;;
+    width: 38%;
+    overflow: scroll;
+    overflow-x:hidden;
+   
+}
+.h{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #22202e;
+}
+.onecart{
+    width: 110px;
+    height: 20px;
+}
+.log{
+    width: 100px;
+    height: 40px;
+}
+p{
+    line-height:2px;
+    
+}
+.un{
+    justify-content: center
+    text-align:end ;
+}
+.logo1{
+width: 13px;
+height: 13px;
+}
+#box{
+padding:5px;
+background-color: white;
+margin: auto;
+padding-left: 40%;
+
+
+}
+#box>div{
+margin-top: 15px;
+justify-content:flex-start; 
+text-align: left ;
+margin: 15px;;
+width: 60%;
+
+
+}
+#box>div:last-child{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: auto;
+gap: 10px;
+
+
+
+}
+#box>div>div>img{
+
+width: auto;
+height: 270px;
+
+
+
+}
+.box1{
+    padding: 1px;
+    border: 1px solid lightgrey; 
+}
+#box>div>div>div{
+ background-color: #F0F1F7;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    height: 30px;
+}
+
+
+button{
+    background: #384467;
+    height: 30px; ;
+    width: 160px;
+    color: white;
+    
+  
+}
+
+#text>div{
+    position: absolute;
+    left: 350px;
+    width: 200px;
+    top: 0;
+    background: black;
+}
+
+

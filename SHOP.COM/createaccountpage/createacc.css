@@ -1,0 +1,75 @@
+#container {
+  width: auto;
+  margin: auto;
+  margin-top: 100px;
+  font-family: sans-serif;
+  padding-left: 250px;
+}
+input:placeholder-shown {
+  font-style: italic;
+}
+header {
+  font-family: sans-serif;
+}
+h1 + p {
+  color: grey;
+}
+input {
+  width: 400px;
+  height: 35px;
+  border: 1px solid black;
+}
+#flname {
+  display: flex;
+  column-gap: 50px;
+}
+#emailcontainer {
+  margin-top: 30px;
+}
+#passcontainer {
+  display: flex;
+  column-gap: 50px;
+  margin-top: 30px;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  font-size: 18px;
+  position: relative;
+  margin-right: 5px;
+}
+#checkboxcontainer {
+  margin-top: -30px;
+}
+#phonecontainer {
+  margin-top: 30px;
+}
+#phone > input {
+  width: 400px;
+}
+#referal {
+  width: 850px;
+  margin-top: 20px;
+  border: 1px solid grey;
+  padding: 10px;
+}
+#referal > input {
+  width: 800px;
+}
+#captcha {
+  display: flex;
+}
+#captchaimg {
+  height: 80px;
+  width: 80px;
+}
+#captcha > :first-child {
+  margin-top: 15px;
+}
+#btn {
+  width: 400px;
+  color: white;
+  background-color: #463768;
+  height: 35px;
+  border-radius: 2px;
+}

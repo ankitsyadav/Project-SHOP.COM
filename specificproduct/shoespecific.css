@@ -1,0 +1,116 @@
+#prodcontainer {
+  width: 100%;
+  display: flex;
+  height: auto;
+  column-gap: 5px;
+  margin: auto;
+}
+#verticalimg {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+}
+#verticalimg > div {
+  width: auto;
+}
+#verticalimg > div > img {
+  width: 100px;
+  height: 100px;
+}
+#mainimg {
+  width: 42%;
+}
+#productdetails {
+  width: 42%;
+}
+
+#mainimg > img {
+  width: auto;
+  height: 500px;
+}
+#productdetails {
+  line-height: 10px;
+  text-align: center;
+}
+#pdiv {
+  margin-top: 10px;
+}
+#belowprice > div {
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1px;
+}
+#cryptotext {
+  margin: 20px;
+  background-color: #f1eff7;
+  display: flex;
+  justify-content: center;
+}
+#sizeip {
+  text-align: left;
+  line-height: 1px;
+}
+select {
+  width: 350px;
+  height: 40px;
+}
+#addtokart {
+  display: flex;
+  column-gap: 30px;
+  margin: auto;
+}
+#addtokart > :nth-child(1) {
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+#qty {
+  width: 100px;
+  height: 30px;
+  font-weight: bolder;
+}
+#addtokartbtn {
+  width: 275px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+}
+#pincontainer {
+  display: flex;
+  column-gap: 50px;
+  margin-top: 20px;
+}
+#pincontainer > div > input {
+  height: 35px;
+  width: 201px;
+}
+#btncalcship {
+  height: 35px;
+  width: 201px;
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+#infosummary {
+  margin: auto;
+  margin-top: 20px;
+  line-height: 20px;
+}
+#similarprodcontainer {
+  display: flex;
+  width: 100%;
+  height: 320px;
+  column-gap: 10px;
+}
+#similarprodcontainer > div {
+  width: 19%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}

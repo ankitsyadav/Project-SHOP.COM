@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>georgia boot</title>
+    <link rel="stylesheet" href="./shoespecific.css" />
+  </head>
+  <body>
+    <iframe
+      style="height: 100%; width: 100%; overflow: hidden"
+      src="../headerfooter/header.html"
+      frameborder="0"
+    ></iframe>
+    <div id="prodcontainer">
+      <div id="verticalimg">
+        <div onclick="showing1()">
+          <img
+            src="https://img.shop.com/Image/270000/279100/279185/products/1890336639__800x800__.jpg"
+            alt="logo"
+          />
+        </div>
+        <div onclick="showing2()">
+          <img
+            src="https://img.shop.com/Image/270000/279100/279185/products/alt_793710094__800x800__.jpg"
+            alt="logo"
+          />
+        </div>
+        <div onclick="showing3()">
+          <img
+            src="https://img.shop.com/Image/270000/279100/279185/products/alt_793710095__800x800__.jpg"
+            alt="logo"
+          />
+        </div>
+        <div onclick="showing4()">
+          <img
+            src="https://img.shop.com/Image/270000/279100/279185/products/alt_793710096__800x800__.jpg"
+            alt="logo"
+          />
+        </div>
+      </div>
+      <div id="mainimg">
+        <img
+          id="mainimgimg"
+          src="https://img.shop.com/Image/270000/279100/279185/products/alt_793710096__800x800__.jpg"
+          alt=""
+        />
+      </div>
+      <div id="productdetails">
+        <p>Georgia Boot</p>
+        <h1>Georgia Boot Small Batch Casual Boot</h1>
+        <p>Sold by Lehigh Outfitters</p>
+        <a href="../signin/sign.html"> write review </a>
+        <div id="pdiv">
+          <p>
+            <b style="font-size: xx-large">RS-1699</b>
+            <span style="font-size: medium"><b> + RS- 140 % off</b> </span>
+
+            <img
+              style="height: 13px; width: 13px"
+              src="https://img.shop.com/Image/resources/images/cashback-icon.svg"
+              alt=""
+            />
+            cashback
+          </p>
+        </div>
+        <div id="belowprice">
+          <div
+            style="
+              border: 0.5px solid;
+              height: 0.5px grey;
+              width: 80%;
+              background-color: grey;
+            "
+          ></div>
+          <div>
+            <p style="font-size: small">
+              <b>Free Standard Shipping on orders from Lehigh Outfitters.</b>
+            </p>
+            <br />
+            <a href="www.google..comhttps://www.lehighoutfitters.com/">
+              see details</a
+            >
+          </div>
+          <div
+            style="
+              border: 0.1px solid;
+              height: 0.1px grey;
+              width: 80%;
+              background-color: grey;
+            "
+          ></div>
+        </div>
+        <div id="cryptotext">
+          <div>
+            <img
+              style="width: 150px; height: 27px; padding-top: 10px"
+              src="https://bitpay.com/cdn/merchant-resources/bitpay-accepted-card-group.svg"
+              alt="logo"
+            />
+          </div>
+          <div>
+            <p style="font-size: larger">Now accepting Crypto at Checkout!</p>
+          </div>
+        </div>
+        <!-- size select start -->
+        <div id="sizeip">
+          <p>Size:</p>
+          <div>
+            <select name="please select1" id="sizeselect">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <p>width:</p>
+          <div>
+            <select name="please select2" id="widthselect">
+              <option value="medium">M</option>
+              <option value="wide">W</option>
+            </select>
+          </div>
+          <p><b>Color: BROWN</b></p>
+        </div>
+        <div id="addtokart">
+          <div>QTY :</div>
+          <div>
+            <select name="qty" id="qty">
+              <option value="0">select quantity</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div>
+            <button onclick="addtokart()" id="addtokartbtn">ADD TO KART</button>
+          </div>
+        </div>
+        <div id="pincontainer">
+          <div>
+            <input type="number" placeholder="enter pincode" id="pincode" />
+          </div>
+          <div>
+            <button onclick="delposs()" id="btncalcship">
+              CALCULATE SHIPPING
+            </button>
+          </div>
+        </div>
+        <div id="infosummary">
+          Our Small Batch collection features high quality heritage lifestyle
+          boots reminiscent of our work boots of the sixties. Crafted from
+          full-grain "Hot Stuff" leather, this men's 6-inch lace up boot is
+          built with the most trusted Goodyear® welt construction.
+        </div>
+      </div>
+    </div>
+    <div style="text-align: center">
+      <h1>We thought you may like:</h1>
+    </div>
+    <div id="similarprodcontainer">
+      <div>
+        <img
+          src="https://img.shop.com/Image/270000/279100/279185/products/1890336638__175x175__.jpg"
+          alt=""
+        />
+
+        <h5>
+          Georgia Boot Small Batch Cut Wedge Casual Boot Georgia Boot Small
+          Batch Cut Wedge Casual Boot
+        </h5>
+        <h4>price -- RS -1200</h4>
+      </div>
+      <div>
+        <img
+          src="https://img.shop.com/Image/270000/279100/279185/products/1890336637__175x175__.jpg"
+          alt=""
+        />
+        <h5>
+          Georgia Boot Small Batch Cut Wedge Casual Boot Georgia Boot Small
+          Batch Cut Wedge Casual Boot
+        </h5>
+        <h4>price -- RS -1000</h4>
+      </div>
+      <div>
+        <img
+          src="https://img.shop.com/Image/270000/279100/279185/products/1890336645__175x175__.jpg"
+          alt=""
+        />
+        <h5>
+          Georgia Boot Small Batch Cut Wedge Casual Boot Georgia Boot Small
+          Batch Cut Wedge Casual Boot
+        </h5>
+        <h4>price -- RS -799</h4>
+      </div>
+      <div>
+        <img
+          src="https://img.shop.com/Image/270000/279100/279185/products/1843066642__175x175__.jpg"
+          alt=""
+        />
+        <h5>
+          Georgia Boot Small Batch Cut Wedge Casual Boot Georgia Boot Small
+          Batch Cut Wedge Casual Boot
+        </h5>
+        <h4>price -- RS -1450</h4>
+      </div>
+      <div>
+        <img
+          src="https://img.shop.com/Image/270000/279100/279185/products/1843066641__175x175__.jpg"
+          alt=""
+        />
+        <h5>
+          Georgia Boot Small Batch Cut Wedge Casual Boot Georgia Boot Small
+          Batch Cut Wedge Casual Boot
+        </h5>
+        <h4>price -- RS -699</h4>
+      </div>
+    </div>
+    <iframe
+      style="height: 450px; width: 100%; overflow: hidden"
+      src="../headerfooter/footer.html"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
+<script src="./shoespecific.js"></script>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHOP.COM online shopping - create- myaccount</title>
+    <link rel="stylesheet" href="createacc.css" />
+  </head>
+  <body>
+    <iframe
+      style="height: 100%; width: 100%; overflow: hidden"
+      src="../headerfooter/header.html"
+      frameborder="0"
+    ></iframe>
+    <div id="container">
+      <h1>Create an account</h1>
+      <p>* Indicates required field</p>
+      <div id="flname">
+        <div>
+          <label for="fname">First name*</label>
+          <br />
+          <input type="text" id="fname" placeholder="First name here" />
+        </div>
+        <div>
+          <label for="fname">Last name*</label>
+          <br />
+          <input type="text" id="lname" placeholder="Last name here" />
+        </div>
+      </div>
+      <div id="emailcontainer">
+        <label for="fname">Email address*</label><br />
+        <input type="email" id="email" placeholder="yourname@example.com" />
+      </div>
+      <div id="passcontainer">
+        <div>
+          <label for="password">Password* (At least 7 characters)</label>
+          <br />
+          <input
+            type="password"
+            id="password1"
+            placeholder="Please enter minimun a 7 Characters"
+          />
+        </div>
+        <div>
+          <label for="password">Confirm password*</label>
+          <br />
+          <input
+            type="password"
+            id="password2"
+            placeholder="Please re enter your password "
+          />
+        </div>
+      </div>
+      <div>
+        <h4>Text Message (SMS) Alerts: (Optional)</h4>
+        <br />
+      </div>
+      <div id="checkboxcontainer">
+        <label>
+          <input type="checkbox" />
+          Do you want to sign up for Shopper alerts from SHOP.COM? (Message and
+          data rates may apply.)
+        </label>
+      </div>
+      <div id="phonecontainer">
+        <label for="phone">Enter a mobile number</label><br />
+        <input
+          type="number"
+          id="phone"
+          placeholder="Please enter your 10 digit phone number"
+        />
+      </div>
+      <div id="referal">
+        <label for="fname"
+          >Were you referred by a friend?<br />
+          Enter their email address (Optional)</label
+        ><br />
+        <input type="email" />
+      </div>
+      <p style="margin-top: 7px">Your Shop Consultant is SHOP.COM</p>
+      <h4 style="margin-top: 20px">Email deals: (Optional)</h4>
+      <label>
+        <input type="checkbox" />
+        Do you want to sign up for Shopper alerts from SHOP.COM? (Message and
+        data rates may apply.) </label
+      ><br />
+      <label>
+        <input type="checkbox" />
+        Do you want to sign up for sweet email offers and discounts from
+        MarketAmerica.com and its brands?
+      </label>
+      <p style="font-weight: bold">Also, please confirm you are not a robot:</p>
+      <div id="captcha">
+        <div>
+          <label>
+            <input type="checkbox" />
+            I'm not a robot
+          </label>
+        </div>
+        <div>
+          <img
+            id="captchaimg"
+            src="https://prestamoduleshop.com/70-large_default/captcha-forms-protection-recaptcha.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div>
+        <button id="btn">Create your new account</button>
+        <p>
+          By creating an account, you are agreeing to our Terms of Service and
+          Privacy Policy.
+        </p>
+      </div>
+    </div>
+
+    <iframe
+      style="height: 450px; width: 100%; overflow: hidden"
+      src="../headerfooter/footer.html"
+      frameborder="0"
+    ></iframe>
+  </body>
+</html>
+
+<script src="./createacc.js"></script>
