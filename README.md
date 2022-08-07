@@ -3,6 +3,7 @@
 
 
 ## CLONING OF OUT WEBSITE SHOP.COM
+https://vigilant-hodgkin-32192f.netlify.app/
 
 This blog is created to share our experience of working on a project assigned to us by Masai School,which was to create a clone of the shop.com website in 6 days
 
